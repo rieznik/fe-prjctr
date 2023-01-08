@@ -1,3 +1,39 @@
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url(fonts/BasisGrotesquePro-Light.woff2) format(woff2),
+    url(fonts/BasisGrotesquePro-Light.woff) format(woff),
+    url(fonts/BasisGrotesquePro-Light.ttf) format(truetype);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url(fonts/BasisGrotesquePro-Regular.woff2) format(woff2),
+    url(fonts/BasisGrotesquePro-Regular.woff) format(woff),
+    url(fonts/BasisGrotesquePro-Regular.ttf) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url(fonts/BasisGrotesquePro-Medium.woff2) format(woff2),
+    url(fonts/BasisGrotesquePro-Medium.woff) format(woff),
+    url(fonts/BasisGrotesquePro-Medium.ttf) format(truetype);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url(fonts/BasisGrotesquePro-Bold.woff2) format(woff2),
+    url(fonts/BasisGrotesquePro-Bold.woff) format(woff),
+    url(fonts/BasisGrotesquePro-Bold.ttf) format(truetype);
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +42,7 @@
 
 html {
   font-size: clamp(12px, 3vw, 16px);
-  font-family: Raleway, sans-serif;
+  font-family: 'Basis Grotesque Pro', sans-serif;
   line-height: 150%;
   letter-spacing: -0.03em;
   color: #000000;
