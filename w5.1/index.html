@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sebastian Mullaert biography</title>
+  <meta name="description" content="Sebastian Mullaert biography">
+  <meta name="keywords" content="Sebastian Mullaert, biography">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="heading"><span class="topic">(Booking)</span> Send <span class="italic">an email</span>
+    </h1>
+    <p class="text primary-color">If you have a general or project enquiry, please drop me an email — available now</p>
+
+    <form action="https://example.com/" method="GET">
+      <label for="Email">Email</label>
+      <input required type="email" id="email" name="email" autocomplete="email" placeholder="Your email">
+      <label for="name">Name</label>
+      <input required type="text" id="name" name="name" autocomplete="name" placeholder="Your name">
+      <label for="message">Message</label>
+      <input required type="text" id="message" name="message" placeholder="Start typing here">
+      <label for="project-type">Project type</label>
+      <select id="project-type" name="project-type">
+        <option hidden disabled selected> Choose </option>
+        <option value="reserve-for-personal-event">Reserve for personal event</option>
+        <option value="buy-tickets-for-a-next-concert">Buy tickets for a next concert</option>
+        <option value="reserve-from-a-venue">Reserve from a venue</option>
+        <option value="other">Other</option>
+      </select>
+      <div class="flex-container">
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <label for="checkbox">I agree to receive occasional newsletter with latest news and updates</label>
+      </div>
+
+      <button class="btn"><span class="btn-dash">—</span>Send</button>
+    </form>
+  </div>
+</body>
+
+</html>
